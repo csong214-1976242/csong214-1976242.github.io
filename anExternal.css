@@ -1,0 +1,65 @@
+body{ 
+    background-color: rgb(187, 231, 148);
+    padding: 15px;
+    background-size: padding-box; 
+}
+#first p {
+font-family: Arial, Helvetica, sans-serif;
+}
+
+#second p {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h1 {
+    border-style: dotted;
+}
+
+#smallPic1{
+
+    height: 50px;
+    width: 50px;
+    overflow: hidden;
+
+}
+
+#smallPic2{
+
+    height: 50px;
+    width: 50px;
+    overflow: hidden;
+    float: right;
+
+}
+/*20 pixel margins and float*/
+#pic{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    float: right; 
+}
+#roundCorners {
+    border-radius: 100px;
+    border: 5px solid #a4628e;
+    padding: 50px; 
+    width: 200px;
+    height: 200px;  
+  }
+
+.centered{
+    position: relative;
+    text-align: center;
+}
+
+
+#centeredImg{
+    width: 100%;
+}
+#centeredText{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: blue;
+}
